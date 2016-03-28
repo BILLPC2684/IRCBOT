@@ -216,7 +216,7 @@ class BOT(object):
                     elif i == "*help":
                         for j in line:
                             if j == "commands":
-                                self.sendMSG(Chan+" Commands: *info, *help, *fib, *add, *sub, *and, *or, *xor(don't work that well...)")
+                                self.sendMSG(Chan+" Commands: *info, *help, *fib, *add, *sub, *and, *or, *xor")
                                 br=1
                                 break
                             elif j == "info":
