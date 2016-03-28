@@ -7,7 +7,7 @@ Nick="TheRedGamer2684"
 IP="irc.openredstone.org"
 Port=6667
 Channel="#openredstone"#"#bottesting"#
-log_autotalk=["PRIVMSG nickserv identify 2684","PRIVMSG "+Channel+" TESTBOT loaded!"]
+log_autotalk=[]
 secs=10
 
 #Channel = ""
