@@ -205,7 +205,7 @@ class BOT(object):
                         if logged==1:
                             self.sendMSG(Chan+" TestBot is already logged in")
                         elif logged==0:
-                            self.sendMSG("NickServ identify 2684")
+                            self.sendMSG("NickServ identify <pass>)
                             sleep(2)
                             self.sendMSG(Chan+" TestBot logged in")
                             logged=1
